@@ -9,15 +9,26 @@ h1 {
   margin-bottom: 15px;
 }
 
+h2 {
+  font-size: 36px;
+  font-weight: 900;
+  color: #1f2937;
+}
+
 p {
   font-size: 18px;
   color: #e5e7eb;
   line-height: 1.2;
 }
 
+span {
+  color: grey;
+  font-size: 18px;
+}
+
 .seg_one {
   background-color: #1f2937;
-  height: 50vh;
+  height: 535px;
 }
 
 header {
@@ -71,6 +82,7 @@ main {
   width: 525px;
   height: 235px;
   padding-top: 35px;
+  flex-shrink: 0;
 }
 
 button {
@@ -87,8 +99,49 @@ button:hover {
   color: white;
 }
 
+.right_content {
+  flex-shrink: 0;
+}
+
 .info {
   display: flex;
   padding: 0 210px;
   flex-direction: column;
+}
+
+.info_top {
+  display: flex;
+  justify-content: center;
+  margin: 55px 0;
+}
+
+.boxes {
+  display: flex;
+  justify-content: center;
+}
+
+.mainbox {
+  margin-left: 50px;
+}
+
+.box {
+  width: 164px;
+  height: 168px;
+  border: 4px solid #3882f6;
+  border-radius: 10%;
+  /* margin-left: 50px; */
+  flex-shrink: 0;
+}
+
+.boxtext {
+  display: block;
+  width: 168px;
+  overflow-wrap: break-word;
+  text-align: center;
+}
+
+.box_img {
+  width: 164px;
+  height: 168px;
+  border-radius: 8%;
 }
