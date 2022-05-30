@@ -38,10 +38,15 @@ header {
   margin-bottom: 120px;
 }
 
-.header_logo {
+a.logo_link {
   color: #f9faf8;
   font-size: 24px;
   font-weight: 900;
+}
+
+a.logo_link:hover {
+  color: #fef9a7;
+  border: none;
 }
 
 .header_right {
@@ -61,6 +66,7 @@ a {
 }
 
 a:hover {
+  color: #fef9a7;
   border-bottom: 3px solid black;
 }
 
@@ -107,6 +113,7 @@ button:hover {
   display: flex;
   padding: 0 210px;
   flex-direction: column;
+  margin-bottom: 125px;
 }
 
 .info_top {
@@ -144,4 +151,37 @@ button:hover {
   width: 164px;
   height: 168px;
   border-radius: 8%;
+}
+
+.seg_three {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: #e5e7eb;
+  height: 430px;
+}
+
+.some_text {
+  width: 790px;
+  height: 150px;
+}
+
+p.quote {
+  color: gray;
+  font-size: 36px;
+  font-weight: lighter;
+  font-style: italic;
+}
+
+.some_author {
+  display: flex;
+  justify-content: flex-end;
+  width: 790px;
+}
+
+.administration {
+  color: black;
+  font-size: 24px;
+  font-weight: 700;
 }
