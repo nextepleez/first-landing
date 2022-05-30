@@ -15,6 +15,11 @@ h2 {
   color: #1f2937;
 }
 
+h3 {
+  font-size: 24px;
+  color: #e5e7eb;
+}
+
 p {
   font-size: 18px;
   color: #e5e7eb;
@@ -184,4 +189,40 @@ p.quote {
   color: black;
   font-size: 24px;
   font-weight: 700;
+}
+
+.seg_four {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 0px 210px 0 210px;
+  height: 350px;
+}
+
+.invitation {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  background-color: #3882f6;
+  height: 150px;
+  width: 100%;
+  border-radius: 10px;
+}
+
+.left_invitation {
+  line-height: 1.5;
+}
+
+.joinbtn {
+  border: 2px solid white;
+}
+
+footer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #1f2937;
+  height: 100px;
+  color: #e5e7eb;
+  font-size: 24px;
 }
